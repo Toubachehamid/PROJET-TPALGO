@@ -1,9 +1,10 @@
-#include "include/raylib.h" 
+#include "raylib.h" 
 #include <stdio.h>  
 #include <stdlib.h>
 #include <string.h>
  
-typedef struct Element { 
+typedef struct Element {
+
     int info; 
     struct Element* prec; 
     struct Element* suiv; 
