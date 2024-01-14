@@ -8,7 +8,9 @@ typedef struct Element {
     int info; 
     struct Element* prec; 
     struct Element* suiv; 
-} Element; 
+} Element;  
+
+
  
 Element* creerElement(int info) { 
     Element* newElement = (Element*)malloc(sizeof(Element)); 
